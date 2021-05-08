@@ -11,7 +11,7 @@ var tom4 = new Audio("sounds/tom-4.mp3");
 $("button").click(function(){playSound(this.innerHTML); animateDrum(this.innerHTML);});
 
 //Drum listening to keyboard
-("body").keypress(function(event){playSound(event.key); animateDrum(event.key);})
+$("body").keypress(function(event){playSound(event.key); animateDrum(event.key);})
 
 //add and time out class ".pressed"
 function animateDrum(letterInput){
