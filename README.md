@@ -1,2 +1,2 @@
 # Drum-Kit
-Drum sounds using clicks or letters
+Play drum sounds using letters or clicks with addEventListener.
